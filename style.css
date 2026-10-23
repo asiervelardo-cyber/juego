@@ -15,3 +15,19 @@ body{
     font-size:100px; 
     color: aliceblue;
 }
+ 
+/* Cuadro del dinero: cambia SOLO font-size y todo se escala (texto, relleno y borde) */
+#dineroDiv{
+    font-size: 30px;
+}
+#dineroDiv .card-body{
+    padding: 0.5em 0.9em;
+}
+#dineroDiv .etiqueta{
+    font-size: 0.5em;
+    display: block;
+}
+#dineroDiv .cantidad{
+    font-size: 1.4em;
+    line-height: 1.1;
+}
