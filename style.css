@@ -1,5 +1,6 @@
 body{
-    background-color: rgb(0, 161, 0);
+    /* background: linear-gradient(135deg, #020617, #164e63, #06b6d4);*/
+    background: linear-gradient(135deg, #0f172a, #312e81, #7c3aed);
     font-family: system-ui, sans-serif;
 }
 
@@ -7,4 +8,10 @@ body{
     position: absolute; 
     top:4%; 
     left: 1%;
+}
+
+#titulo{
+    top: 20%; 
+    font-size:100px; 
+    color: aliceblue;
 }
